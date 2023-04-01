@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /readme
 ---
 这个repository用来收集一些网页特效。
 
