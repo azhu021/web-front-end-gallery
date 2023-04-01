@@ -1,9 +1,3 @@
-    - name: Install pandoc
-      run: |
-        sudo apt-get update
-        sudo apt-get install pandoc
-
-
 name: Convert README to HTML
 
 on:
@@ -18,6 +12,11 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+
+    - name: Install pandoc
+      run: |
+        sudo apt-get update
+        sudo apt-get install pandoc
 
     - name: Convert README to HTML
       run: |
