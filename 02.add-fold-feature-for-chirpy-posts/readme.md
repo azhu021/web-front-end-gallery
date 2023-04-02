@@ -1,1 +1,1 @@
-Add fold/unfold feature to `<code>` sections in the Chirpy theme's posts.
+Add fold/unfold feature to `<code>` sections in posts of the Chirpy theme.
